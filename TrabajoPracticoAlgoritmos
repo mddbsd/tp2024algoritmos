@@ -1,0 +1,41 @@
+Trabajo Practico Programación 2024
+
+Detectar los errores y corregirlos:
+
+Algoritmo Correccion1
+	bandera = 2 <= 1
+	Si band Entonces
+	Escribir "La condición es: " " por lo tanto la ejecución entra en la estructura selectiva Si y ejecuta esta línea "
+	Fin Si
+FinAlgoritmo
+
+Algoritmo Correccion2
+	Definir bandera Como Logico
+	bandera = 2 > 3 3 == 3
+	Si bandera Entonces
+		Escribir "La condición es: " bandera " por eso se muestra este mensaje"
+	SiNo
+		Escribir "La condición es: " bandera " por eso se muestra este mensaje"
+FinAlgoritmo
+
+Algoritmo Correccion3
+	Definir num Como Entero
+	//El programa ingresará números mientras sean PARES
+	Escribir "Ingrese un número"
+	Leer num
+	Mientras num 2 == 0 Hacer
+		Escribir "Ingrese otro número"
+FinAlgoritmo
+
+Algoritmos:
+
+A: Crear un programa que dibuje una escalera de números, donde cada línea de números comience en uno y termine en el número de la línea. Solicitar la altura de la escalera al usuario al
+comenzar. Ejemplo: si se ingresa el número 3:
+1
+12
+123
+
+B: Diseñar un procedimiento que reciba una frase, y el programa remueva todas las vocales repetidas. Al final el procedimiento mostrará la frase final.
+Por ejemplo:
+Entrada: “Habia una vez un barco”
+Salida: “Habi un vez n brco"
